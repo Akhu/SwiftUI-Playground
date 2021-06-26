@@ -3,23 +3,70 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		924F65092686267A0073DD9A /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 924F65082686267A0073DD9A /* Nuke */; };
+		924F650C268627440073DD9A /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 924F650B268627440073DD9A /* NukeUI */; };
+		924F650E268627540073DD9A /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F650D268627540073DD9A /* AsyncImage.swift */; };
 		925D8C0A267F6CDE0071C401 /* SwiftUI_PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925D8C09267F6CDE0071C401 /* SwiftUI_PlaygroundApp.swift */; };
 		925D8C0C267F6CDE0071C401 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925D8C0B267F6CDE0071C401 /* ContentView.swift */; };
 		925D8C0E267F6CDF0071C401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925D8C0D267F6CDF0071C401 /* Assets.xcassets */; };
 		925D8C11267F6CDF0071C401 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925D8C10267F6CDF0071C401 /* Preview Assets.xcassets */; };
+		925D8C1E267F6D090071C401 /* WalkAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925D8C1D267F6D090071C401 /* WalkAnimation.swift */; };
+		925D8C20267F6D110071C401 /* AnimationsPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925D8C1F267F6D110071C401 /* AnimationsPlayground.swift */; };
+		925D8C22267F6D4B0071C401 /* AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925D8C21267F6D4B0071C401 /* AnimationTests.swift */; };
+		925D8C24267F6D680071C401 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925D8C23267F6D680071C401 /* Timer.swift */; };
+		925D8C26267F6FB30071C401 /* AnimatedButtonFromTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925D8C25267F6FB30071C401 /* AnimatedButtonFromTimerView.swift */; };
+		9270B3B4268138CA00AD9CF1 /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9270B3B3268138CA00AD9CF1 /* BottomSheetView.swift */; };
+		9270B3B626813F1500AD9CF1 /* PagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9270B3B526813F1500AD9CF1 /* PagerView.swift */; };
+		9270B3BC26832E6200AD9CF1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9270B3BB26832E6200AD9CF1 /* MapView.swift */; };
+		9284F9B42687714D00C3E0F2 /* ArtworkCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9284F9B32687714D00C3E0F2 /* ArtworkCollection.swift */; };
+		9288971B26835E6E0024A98B /* LoadingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9288971A26835E6E0024A98B /* LoadingBar.swift */; };
+		9288971D268362F60024A98B /* CountTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9288971C268362F60024A98B /* CountTimer.swift */; };
+		9288971F2683653C0024A98B /* StoryFullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9288971E2683653C0024A98B /* StoryFullScreenView.swift */; };
+		9288972326839E690024A98B /* InvisibleTappableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9288972226839E690024A98B /* InvisibleTappableView.swift */; };
+		928897252683D7200024A98B /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928897242683D7200024A98B /* ImageLoader.swift */; };
+		9288972726847D9D0024A98B /* StoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9288972626847D9D0024A98B /* StoryData.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		924F6506268620010073DD9A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		924F650D268627540073DD9A /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		925D8C06267F6CDE0071C401 /* SwiftUI-Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		925D8C09267F6CDE0071C401 /* SwiftUI_PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PlaygroundApp.swift; sourceTree = "<group>"; };
 		925D8C0B267F6CDE0071C401 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		925D8C0D267F6CDF0071C401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		925D8C10267F6CDF0071C401 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		925D8C12267F6CDF0071C401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925D8C1D267F6D090071C401 /* WalkAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkAnimation.swift; sourceTree = "<group>"; };
+		925D8C1F267F6D110071C401 /* AnimationsPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationsPlayground.swift; sourceTree = "<group>"; };
+		925D8C21267F6D4B0071C401 /* AnimationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationTests.swift; sourceTree = "<group>"; };
+		925D8C23267F6D680071C401 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		925D8C25267F6FB30071C401 /* AnimatedButtonFromTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedButtonFromTimerView.swift; sourceTree = "<group>"; };
+		9270B3B3268138CA00AD9CF1 /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
+		9270B3B526813F1500AD9CF1 /* PagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerView.swift; sourceTree = "<group>"; };
+		9270B3BB26832E6200AD9CF1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		9284F9B32687714D00C3E0F2 /* ArtworkCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkCollection.swift; sourceTree = "<group>"; };
+		9288971A26835E6E0024A98B /* LoadingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingBar.swift; sourceTree = "<group>"; };
+		9288971C268362F60024A98B /* CountTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountTimer.swift; sourceTree = "<group>"; };
+		9288971E2683653C0024A98B /* StoryFullScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryFullScreenView.swift; sourceTree = "<group>"; };
+		9288972226839E690024A98B /* InvisibleTappableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvisibleTappableView.swift; sourceTree = "<group>"; };
+		928897242683D7200024A98B /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		9288972626847D9D0024A98B /* StoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				924F65092686267A0073DD9A /* Nuke in Frameworks */,
+				924F650C268627440073DD9A /* NukeUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,11 +101,19 @@
 		925D8C08267F6CDE0071C401 /* SwiftUI-Playground */ = {
 			isa = PBXGroup;
 			children = (
+				9288971726835E580024A98B /* Story */,
+				925D8C18267F6CE70071C401 /* Animations */,
 				925D8C09267F6CDE0071C401 /* SwiftUI_PlaygroundApp.swift */,
 				925D8C0B267F6CDE0071C401 /* ContentView.swift */,
 				925D8C0D267F6CDF0071C401 /* Assets.xcassets */,
 				925D8C12267F6CDF0071C401 /* Info.plist */,
 				925D8C0F267F6CDF0071C401 /* Preview Content */,
+				925D8C23267F6D680071C401 /* Timer.swift */,
+				925D8C25267F6FB30071C401 /* AnimatedButtonFromTimerView.swift */,
+				9270B3B3268138CA00AD9CF1 /* BottomSheetView.swift */,
+				9270B3BB26832E6200AD9CF1 /* MapView.swift */,
+				924F650D268627540073DD9A /* AsyncImage.swift */,
+				9284F9B32687714D00C3E0F2 /* ArtworkCollection.swift */,
 			);
 			path = "SwiftUI-Playground";
 			sourceTree = "<group>";
@@ -69,6 +126,30 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		925D8C18267F6CE70071C401 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				925D8C1D267F6D090071C401 /* WalkAnimation.swift */,
+				925D8C21267F6D4B0071C401 /* AnimationTests.swift */,
+				925D8C1F267F6D110071C401 /* AnimationsPlayground.swift */,
+				9270B3B526813F1500AD9CF1 /* PagerView.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		9288971726835E580024A98B /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				9288971A26835E6E0024A98B /* LoadingBar.swift */,
+				9288971C268362F60024A98B /* CountTimer.swift */,
+				9288971E2683653C0024A98B /* StoryFullScreenView.swift */,
+				9288972226839E690024A98B /* InvisibleTappableView.swift */,
+				928897242683D7200024A98B /* ImageLoader.swift */,
+				9288972626847D9D0024A98B /* StoryData.swift */,
+			);
+			path = Story;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,12 +160,17 @@
 				925D8C02267F6CDE0071C401 /* Sources */,
 				925D8C03267F6CDE0071C401 /* Frameworks */,
 				925D8C04267F6CDE0071C401 /* Resources */,
+				924F6506268620010073DD9A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "SwiftUI-Playground";
+			packageProductDependencies = (
+				924F65082686267A0073DD9A /* Nuke */,
+				924F650B268627440073DD9A /* NukeUI */,
+			);
 			productName = "SwiftUI-Playground";
 			productReference = 925D8C06267F6CDE0071C401 /* SwiftUI-Playground.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +198,10 @@
 				Base,
 			);
 			mainGroup = 925D8BFD267F6CDE0071C401;
+			packageReferences = (
+				924F65072686267A0073DD9A /* XCRemoteSwiftPackageReference "Nuke" */,
+				924F650A268627440073DD9A /* XCRemoteSwiftPackageReference "NukeUI" */,
+			);
 			productRefGroup = 925D8C07267F6CDE0071C401 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +228,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				925D8C22267F6D4B0071C401 /* AnimationTests.swift in Sources */,
+				9270B3B4268138CA00AD9CF1 /* BottomSheetView.swift in Sources */,
+				928897252683D7200024A98B /* ImageLoader.swift in Sources */,
+				924F650E268627540073DD9A /* AsyncImage.swift in Sources */,
+				925D8C26267F6FB30071C401 /* AnimatedButtonFromTimerView.swift in Sources */,
+				9288971B26835E6E0024A98B /* LoadingBar.swift in Sources */,
+				9288972726847D9D0024A98B /* StoryData.swift in Sources */,
+				9288971F2683653C0024A98B /* StoryFullScreenView.swift in Sources */,
+				9284F9B42687714D00C3E0F2 /* ArtworkCollection.swift in Sources */,
+				925D8C1E267F6D090071C401 /* WalkAnimation.swift in Sources */,
+				9288971D268362F60024A98B /* CountTimer.swift in Sources */,
+				925D8C24267F6D680071C401 /* Timer.swift in Sources */,
+				925D8C20267F6D110071C401 /* AnimationsPlayground.swift in Sources */,
 				925D8C0C267F6CDE0071C401 /* ContentView.swift in Sources */,
+				9270B3BC26832E6200AD9CF1 /* MapView.swift in Sources */,
+				9288972326839E690024A98B /* InvisibleTappableView.swift in Sources */,
+				9270B3B626813F1500AD9CF1 /* PagerView.swift in Sources */,
 				925D8C0A267F6CDE0071C401 /* SwiftUI_PlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +434,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		924F65072686267A0073DD9A /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.3.0;
+			};
+		};
+		924F650A268627440073DD9A /* XCRemoteSwiftPackageReference "NukeUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/NukeUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		924F65082686267A0073DD9A /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 924F65072686267A0073DD9A /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		924F650B268627440073DD9A /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 924F650A268627440073DD9A /* XCRemoteSwiftPackageReference "NukeUI" */;
+			productName = NukeUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 925D8BFE267F6CDE0071C401 /* Project object */;
 }
