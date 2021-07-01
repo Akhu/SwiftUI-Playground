@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9228EE3B268C96ED00BB0FE4 /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9228EE3A268C96ED00BB0FE4 /* Carousel.swift */; };
+		922AE9EE268D0BA600C38003 /* GradientOnImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922AE9ED268D0BA600C38003 /* GradientOnImage.swift */; };
 		924F65092686267A0073DD9A /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 924F65082686267A0073DD9A /* Nuke */; };
 		924F650C268627440073DD9A /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 924F650B268627440073DD9A /* NukeUI */; };
 		924F650E268627540073DD9A /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F650D268627540073DD9A /* AsyncImage.swift */; };
@@ -45,6 +47,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9228EE3A268C96ED00BB0FE4 /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		922AE9ED268D0BA600C38003 /* GradientOnImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientOnImage.swift; sourceTree = "<group>"; };
 		924F650D268627540073DD9A /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		925D8C06267F6CDE0071C401 /* SwiftUI-Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		925D8C09267F6CDE0071C401 /* SwiftUI_PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PlaygroundApp.swift; sourceTree = "<group>"; };
@@ -114,6 +118,7 @@
 				9270B3BB26832E6200AD9CF1 /* MapView.swift */,
 				924F650D268627540073DD9A /* AsyncImage.swift */,
 				9284F9B32687714D00C3E0F2 /* ArtworkCollection.swift */,
+				922AE9ED268D0BA600C38003 /* GradientOnImage.swift */,
 			);
 			path = "SwiftUI-Playground";
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 				925D8C21267F6D4B0071C401 /* AnimationTests.swift */,
 				925D8C1F267F6D110071C401 /* AnimationsPlayground.swift */,
 				9270B3B526813F1500AD9CF1 /* PagerView.swift */,
+				9228EE3A268C96ED00BB0FE4 /* Carousel.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 			files = (
 				925D8C22267F6D4B0071C401 /* AnimationTests.swift in Sources */,
 				9270B3B4268138CA00AD9CF1 /* BottomSheetView.swift in Sources */,
+				922AE9EE268D0BA600C38003 /* GradientOnImage.swift in Sources */,
 				928897252683D7200024A98B /* ImageLoader.swift in Sources */,
 				924F650E268627540073DD9A /* AsyncImage.swift in Sources */,
 				925D8C26267F6FB30071C401 /* AnimatedButtonFromTimerView.swift in Sources */,
@@ -245,6 +252,7 @@
 				9270B3BC26832E6200AD9CF1 /* MapView.swift in Sources */,
 				9288972326839E690024A98B /* InvisibleTappableView.swift in Sources */,
 				9270B3B626813F1500AD9CF1 /* PagerView.swift in Sources */,
+				9228EE3B268C96ED00BB0FE4 /* Carousel.swift in Sources */,
 				925D8C0A267F6CDE0071C401 /* SwiftUI_PlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
