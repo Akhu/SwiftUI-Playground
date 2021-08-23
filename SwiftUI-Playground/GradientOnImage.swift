@@ -29,8 +29,22 @@ struct GradientOnImage: View {
                 .ignoresSafeArea()
                 .frame(height: geometry.size.height, alignment: .bottom)
                 
-                
-                    
+                VStack(alignment: .trailing) {
+                    HStack {
+                        Spacer()
+                        Button(action: {
+                        }, label: {
+                            Image(systemName: "xmark")
+                                .font(.system(size: 24))
+                        })
+                        .contentShape(Rectangle())
+                        .foregroundColor(Color.white.opacity(0.8))
+                        .padding()
+                        .background(RoundedRectangle(cornerRadius: 4, style: .continuous)
+                                    .foregroundColor(Color.white.opacity(0.2)))
+                    }
+                    .padding(.horizontal, 16)
+                }
             }
         }
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		921D22832691DF06005123E2 /* NetworkMonitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921D22822691DF06005123E2 /* NetworkMonitorView.swift */; };
 		9228EE3B268C96ED00BB0FE4 /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9228EE3A268C96ED00BB0FE4 /* Carousel.swift */; };
 		922AE9EE268D0BA600C38003 /* GradientOnImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922AE9ED268D0BA600C38003 /* GradientOnImage.swift */; };
 		924F65092686267A0073DD9A /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 924F65082686267A0073DD9A /* Nuke */; };
@@ -31,6 +32,8 @@
 		9288972326839E690024A98B /* InvisibleTappableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9288972226839E690024A98B /* InvisibleTappableView.swift */; };
 		928897252683D7200024A98B /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928897242683D7200024A98B /* ImageLoader.swift */; };
 		9288972726847D9D0024A98B /* StoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9288972626847D9D0024A98B /* StoryData.swift */; };
+		92EA9A4D269B8E4500247C46 /* DrawingPlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EA9A4C269B8E4500247C46 /* DrawingPlaygroundView.swift */; };
+		92EA9A53269B9ABF00247C46 /* ObservedObjectTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EA9A52269B9ABF00247C46 /* ObservedObjectTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +50,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		921D22822691DF06005123E2 /* NetworkMonitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitorView.swift; sourceTree = "<group>"; };
 		9228EE3A268C96ED00BB0FE4 /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
 		922AE9ED268D0BA600C38003 /* GradientOnImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientOnImage.swift; sourceTree = "<group>"; };
 		924F650D268627540073DD9A /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
@@ -71,6 +75,8 @@
 		9288972226839E690024A98B /* InvisibleTappableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvisibleTappableView.swift; sourceTree = "<group>"; };
 		928897242683D7200024A98B /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		9288972626847D9D0024A98B /* StoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryData.swift; sourceTree = "<group>"; };
+		92EA9A4C269B8E4500247C46 /* DrawingPlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingPlaygroundView.swift; sourceTree = "<group>"; };
+		92EA9A52269B9ABF00247C46 /* ObservedObjectTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,9 @@
 				924F650D268627540073DD9A /* AsyncImage.swift */,
 				9284F9B32687714D00C3E0F2 /* ArtworkCollection.swift */,
 				922AE9ED268D0BA600C38003 /* GradientOnImage.swift */,
+				921D22822691DF06005123E2 /* NetworkMonitorView.swift */,
+				92EA9A4C269B8E4500247C46 /* DrawingPlaygroundView.swift */,
+				92EA9A52269B9ABF00247C46 /* ObservedObjectTestView.swift */,
 			);
 			path = "SwiftUI-Playground";
 			sourceTree = "<group>";
@@ -238,6 +247,8 @@
 				9270B3B4268138CA00AD9CF1 /* BottomSheetView.swift in Sources */,
 				922AE9EE268D0BA600C38003 /* GradientOnImage.swift in Sources */,
 				928897252683D7200024A98B /* ImageLoader.swift in Sources */,
+				92EA9A4D269B8E4500247C46 /* DrawingPlaygroundView.swift in Sources */,
+				921D22832691DF06005123E2 /* NetworkMonitorView.swift in Sources */,
 				924F650E268627540073DD9A /* AsyncImage.swift in Sources */,
 				925D8C26267F6FB30071C401 /* AnimatedButtonFromTimerView.swift in Sources */,
 				9288971B26835E6E0024A98B /* LoadingBar.swift in Sources */,
@@ -250,6 +261,7 @@
 				925D8C20267F6D110071C401 /* AnimationsPlayground.swift in Sources */,
 				925D8C0C267F6CDE0071C401 /* ContentView.swift in Sources */,
 				9270B3BC26832E6200AD9CF1 /* MapView.swift in Sources */,
+				92EA9A53269B9ABF00247C46 /* ObservedObjectTestView.swift in Sources */,
 				9288972326839E690024A98B /* InvisibleTappableView.swift in Sources */,
 				9270B3B626813F1500AD9CF1 /* PagerView.swift in Sources */,
 				9228EE3B268C96ED00BB0FE4 /* Carousel.swift in Sources */,
